@@ -48,9 +48,15 @@ body {
 }
 
 .fake-btn {
-  width: 100px;
-  display: block;
-  margin: 0 auto 10px auto;
+  background-color: rgb(21, 161, 237);
+  border-radius: 3px;
+  color: #fff;
+  padding: .5rem 1rem;
+  margin-top: 20px;
+  position: relative;
+  display: inline-block;
+  right: auto;
+  bottom: auto;
 }
 
 .hbd-chatbox {
