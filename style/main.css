@@ -342,4 +342,76 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
   }
+
+  <style>
+  /* Responsive tweaks */
+  @media screen and (max-width: 768px) {
+    .container > div {
+      top: 10vh;
+    }
+
+    .one {
+      font-size: 2.5rem;
+    }
+
+    .two {
+      font-size: 1rem;
+    }
+
+    .three {
+      font-size: 2rem;
+    }
+
+    .four .text-box {
+      width: 90%;
+      padding: 20px;
+    }
+
+    .hbd-chatbox {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .fake-btn {
+      bottom: -30px;
+      padding: 0.4rem 0.8rem;
+      font-size: 0.9rem;
+    }
+
+    .five p {
+      font-size: 1.5rem;
+    }
+
+    .five .idea-5 {
+      font-size: 2.5rem;
+    }
+
+    .idea-6 span {
+      font-size: 6rem;
+    }
+
+    .six img.profile-picture {
+      height: 250px;
+    }
+
+    .six .hat {
+      width: 50px;
+      top: -25%;
+    }
+
+    .wish-hbd {
+      font-size: 2rem;
+    }
+
+    .wish h5 {
+      font-size: 1.2rem;
+      padding: 0 10px;
+    }
+
+    .nine p {
+      font-size: 1.3rem;
+    }
+  }
+</style>
+
 }
